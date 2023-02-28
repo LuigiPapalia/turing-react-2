@@ -692,7 +692,7 @@ class Turing extends React.Component {
 			<div>
 				<p>{dayjs().format()}</p>
 				<div className="pr-2 py-2">
-					<h1 className="mr-2 my-2">Turing machine</h1>
+					<h1 className="mr-2 my-2">Turing2 machine</h1>
 					<h3 className="mr-2 my-2">States</h3>
 					<button onClick={this.addState} className="btn btn-primary my-2 mr-2">Add another state</button>
 					<button onClick={() => this.debug()} className="btn btn-dark my-2">Debug</button>
